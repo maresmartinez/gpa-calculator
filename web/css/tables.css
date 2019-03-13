@@ -1,0 +1,30 @@
+/*
+Course: PROG 32758
+Instructor: Wendi Jollymore
+Date Created: 24-Sep-2018
+Author: Mariel Martinez
+*/
+/* 
+    Created on : 24-Sep-2018, 1:50:11 PM
+    Author     : marmarie
+*/
+
+table, th, td {
+    border: 1px solid darkgrey;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+th {
+    background-color: #25323C;
+    color: white;
+    padding: 10px 30px;
+}
+
+td {
+    padding: 5px 30px;
+}
+
+tr:nth-child(2n) {
+    background-color: lightgrey;
+}

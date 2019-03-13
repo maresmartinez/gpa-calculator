@@ -1,0 +1,65 @@
+/*
+Course: PROG 32758
+Instructor: Wendi Jollymore
+Date Created: 8-Sep-2018
+Author: Mariel Martinez
+Assignment: In-Class Bonus Assignment 1
+*/
+
+/* Spacing */
+form {
+    margin: 3px;
+    padding: 5px;
+}
+
+input, select {
+    margin: 5px 0 20px 0;
+}
+
+fieldset > div {
+    display: inline-block;
+}
+
+/* Form inputs that are not submit or reset */
+input:not([type=submit]):not([type=reset]), select {
+    border: none;
+    border-bottom: 2px solid #25323C;
+    padding: 2px;
+}
+
+input:not([type=submit]):not([type=reset]):invalid, select {
+    background: #e2e2e2 url(../images/x.png) right no-repeat;
+}
+
+input:not([type=submit]):not([type=reset]):valid, select {
+    background: #e2e2e2 url(../images/check.png) right no-repeat;
+}
+
+input:not([type=submit]):not([type=reset]):focus, option{
+    background-color: #f8f8f8;
+}
+
+
+/* Submit and reset form inputs */
+input[type=submit], input[type=reset] {
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}
+
+input[type=submit] {
+    background-color: #983625;
+    color: white;
+    box-shadow: 2px 2px #d1d1d1;
+    font-weight: bold;
+}
+
+input[type=reset] {
+    color: #25323C;
+    background-color: #d1d1d1;
+    box-shadow: 2px 2px #e8e8e8;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    cursor: pointer;
+}

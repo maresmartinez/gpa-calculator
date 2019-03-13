@@ -1,0 +1,78 @@
+/*
+Course: PROG 32758
+Instructor: Wendi Jollymore
+Date Created: 8-Sep-2018
+Author: Mariel Martinez
+Assignment: In-Class Bonus Assignment 1
+*/
+
+* {
+    font-size: 1em;
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    background-color: #F5F1F2;
+}
+
+header, footer {
+    background-color: #25323C;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    padding: 10px;
+    border-bottom: 4px solid #E8B92B;
+}
+
+footer {
+    color: #FFFFFF;
+    padding: 20px;
+    border-top: 4px solid #E8B92B;
+}
+
+h1, h2 {
+    font-weight: bold;
+    margin: 5px;
+    color: #25323C;
+}
+
+header h1 {
+    color: #E8B92B;
+}
+
+header h2 {
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 2em;
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.7em;
+    padding: 5px 0px;
+    text-transform: capitalize;
+}
+
+p, div {
+    padding: 2px;
+    margin: 4px 2px;
+}
+
+address {
+    font-size: 1.2em;
+    font-style: normal;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    overflow: auto;
+}
